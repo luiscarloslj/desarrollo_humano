@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(90deg, rgb(15, 95, 95), rgb(5, 55, 7));
+    background-blend-mode: normal
+}
+
+header {
+    background-color: #00aaff;
+}
+ul {
+    list-style: none;
+    border: solid 1px black;
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px 3px aqua
+    
+}
+
+ul li {    
+    display: inline-block;
+    
+}
+
+.fase_i
+{
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.fase_v
+{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    height: 25px;    
+}
+
+footer {
+    background-color: #00aaff;
+    
+    color: #444;
+}
+section {
+    color:#ccc;
+}
