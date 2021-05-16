@@ -365,44 +365,39 @@
         width: 20%;
         padding: 7px;
         background-color: green;
-        text-align: center;
-        
-        
+        text-align: center;        
         
     }
 
     footer {
-        position:absolute;
-        margin-bottom: 0;
+        
+        bottom: 0;
         height: 125px;
         width: 100%;
         box-sizing: border-box;
-        display: block;
+        
     }
 
     .general-info-uno {
-        width: 100vw;
-        font-size: 2px;
+        font-size: 10px;
         padding-left: 20px;
-        padding-top: 20px;
+        padding-top: 10px;
         float: left;
         
     }
     .general-info-dos {
-        font-size: 2px;
-        
-        
-        margin-left: 150px;
+        font-size: 10px;
+        padding-left: 20px;
+        padding-top: 5px;
         float: left;
     }
     .container {
         display: block;
-        justify-content:center;
+        justify-content: center;
         width: 100vw;
         height: 50vh;
         padding-top: 15px;
         overflow: auto;
-        
     
     }
     section {
