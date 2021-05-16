@@ -356,7 +356,7 @@
 
     ul {
         /* ancho del nav */
-        width: 280px; 
+        width: 270px; 
         height: 45px;
         display: flex;       
         justify-content: space-around;
@@ -400,8 +400,8 @@
     }
 
     footer {
-        position: relative;
-        bottom: 0;
+        position: static;
+        margin-bottom: 0%;
         height: 120px;
         width: 100%;
         box-sizing: border-box;
