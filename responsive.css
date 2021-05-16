@@ -351,7 +351,8 @@
         position: static;
     }
     #footer_container {
-        position: static;
+        position: sticky;
+        bottom: 0;
     }
     header {
         text-align: center;
@@ -372,7 +373,7 @@
 
     ul {
         /* ancho del nav */
-        width: 270px; 
+        width: 260px; 
         height: 45px;
         display: flex;       
         justify-content: space-around;
@@ -425,14 +426,14 @@
     }
 
     .general-info-uno {
-        font-size: 10px;
+        font-size: 8px;
         padding-left: 20px;
         padding-top: 20px;
         float: left;
         
     }
     .general-info-dos {
-        font-size: 10px;
+        font-size: 8px;
         padding-left: 20px;
         padding-top: 20px;
         
