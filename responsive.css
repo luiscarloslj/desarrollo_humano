@@ -3,10 +3,7 @@
     margin: 0px;
 }
 @media (min-width: 1200px) and (max-width: 1500px) {
-    #the-body {
-        display: flex;
-        flex-direction: column;
-    }
+
     
     header {
         text-align: center;
@@ -89,11 +86,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    #the-body {
-        display: flex;
-        flex-direction: column;
-    }
-
+    
     header {
         text-align: center;
         height: 23vh;
@@ -418,7 +411,8 @@
 
     footer {
         
-        height: 120px;
+        
+        height: 25vh;
         width: 100%;
         box-sizing: border-box;
         
@@ -427,16 +421,16 @@
     .general-info-uno {
         font-size: 10px;
         padding-left: 20px;
-        padding-top: 10px;
+        padding-top: 20px;
         float: left;
         
     }
     .general-info-dos {
         font-size: 10px;
         padding-left: 20px;
-        padding-top: 5px;
+        padding-top: 20px;
+        
         float: left;
     }
- 
 
 }
