@@ -3,7 +3,10 @@
     margin: 0px;
 }
 @media (min-width: 1200px) and (max-width: 1500px) {
-
+    #the-body {
+        display: flex;
+        flex-direction: column;
+    }
     
     header {
         text-align: center;
@@ -62,7 +65,7 @@
         margin-left: 300px;
         float: left;
     }
-    .container {
+    #container {
         display: flex;
         justify-content: center;
         width: 100vw;
@@ -85,6 +88,11 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+    #the-body {
+        display: flex;
+        flex-direction: column;
+    }
 
     header {
         text-align: center;
@@ -143,7 +151,7 @@
         margin-left: 300px;
         float: left;
     }
-    .container {
+    #container {
         display: flex;
         justify-content: center;
         width: 100vw;
@@ -170,7 +178,10 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+    #the-body {
+        display: flex;
+        flex-direction: column;
+    }
     
     header {
         text-align: center;
@@ -229,7 +240,7 @@
         margin-left: 300px;
         float: left;
     }
-    .container {
+    #container {
         display: flex;
         justify-content: center;
         width: 100vw;
@@ -253,7 +264,10 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-
+    #the-body {
+        display: flex;
+        flex-direction: column;
+    }
     
     header {
         text-align: center;
@@ -312,7 +326,7 @@
         margin-left: 250px;
         float: left;
     }
-    .container {
+    #container {
         display: flex;
         justify-content: center;
         width: 100vw;
@@ -335,7 +349,7 @@
 }
 
 @media (max-width: 575px) {
-    body {
+    #the-body {
         display: flex;
         flex-direction: column;
     }
@@ -374,7 +388,7 @@
 
     }
 
-    .container {
+    #container {
         display: block;
         justify-content: center;
         width: 100vw;
