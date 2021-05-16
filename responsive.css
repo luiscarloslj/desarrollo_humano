@@ -346,7 +346,13 @@
         display: flex;
         flex-direction: column;
     }
-    
+
+    #header_nav_container {
+        position: static;
+    }
+    #footer_container {
+        position: static;
+    }
     header {
         text-align: center;
         height: 23vh;
