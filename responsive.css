@@ -352,7 +352,7 @@
     }
     #footer_container {
         position: sticky;
-        
+        margin-top: 50px;
     }
     header {
         text-align: center;
