@@ -43,3 +43,10 @@ footer {
 section {
     color:#ccc;
 }
+
+#container {
+    background-color: yellow;
+}
+#footer_container {
+    background-color:aqua;
+}
