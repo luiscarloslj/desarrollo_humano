@@ -179,7 +179,7 @@
     header {
         text-align: center;
         height: 23vh;
-        padding-top: 35px;
+        padding-top: 40px;
         box-sizing: border-box;
     }
 
@@ -190,7 +190,10 @@
         justify-content: center;
         align-items: center;
         
+        
     }
+
+    
 
     ul {
         width: 500px;
@@ -323,9 +326,9 @@
         display: flex;
         justify-content: center;
         width: 100vw;
-        height: 50vh;
+        
         padding-top: 15px;
-    
+        overflow: auto;
     }
     section {
         width: 50%;
@@ -357,7 +360,7 @@
     header {
         text-align: center;
         height: 23vh;
-        padding-top: 35px;
+        padding-top: 40px;
         box-sizing: border-box;
         font-size: 12px;
     }
@@ -383,7 +386,7 @@
     ul li {
         width: 20%;
         padding: 7px;
-        
+        font-size: 16px;
         text-align: center;
 
     }
@@ -426,7 +429,7 @@
     }
 
     .general-info-uno {
-        font-size: 8px;
+        font-size: 10px;
         padding-left: 20px;
         padding-top: 20px;
         float: left;
