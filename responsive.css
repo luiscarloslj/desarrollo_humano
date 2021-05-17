@@ -3,7 +3,18 @@
     margin: 0px;
 }
 @media (min-width: 1200px) and (max-width: 1500px) {
+    #the-body {
+        display: flex;
+        flex-direction: column;
+    }
 
+    #header_nav_container {
+        position: static;
+    }
+    #footer_container {
+        position: static;
+        margin-top: 25px;
+    }
     
     header {
         text-align: center;
@@ -40,11 +51,9 @@
     }
 
     footer {
-        position:absolute;
-        bottom: 0;
+        
         height: 125px;
         width: 100%;
-        box-sizing: border-box;
         
     }
 
@@ -66,13 +75,12 @@
         display: flex;
         justify-content: center;
         width: 100vw;
-        height: 50vh;
         padding-top: 15px;
     
     }
     section {
         width: 30%;
-        height: 225px;
+      
         
     }
     section h2 {
@@ -82,10 +90,30 @@
         text-align: justify;
         margin: 10px;
     }
+    .vision {
+        position: relative;
+        width: 100%;
+        
+    }
+    .mision {
+        position: relative;
+        width: 100%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    #the-body {
+        display: flex;
+        flex-direction: column;
+    }
 
+    #header_nav_container {
+        position: static;
+    }
+    #footer_container {
+        position: static;
+        margin-top: 25px;
+    }
     
     header {
         text-align: center;
@@ -122,11 +150,9 @@
     }
 
     footer {
-        position:absolute;
-        bottom: 0;
+        
         height: 125px;
         width: 100%;
-        box-sizing: border-box;
         
     }
 
@@ -139,7 +165,7 @@
     }
     .general-info-dos {
         font-size: 10px;
-        padding-left: 5px;
+        padding-left: 20px;
         padding-top: 20px;
         margin-left: 300px;
         float: left;
@@ -148,13 +174,12 @@
         display: flex;
         justify-content: center;
         width: 100vw;
-        height: 50vh;
         padding-top: 15px;
     
     }
     section {
-        width: 40%;
-        height: 225px;
+        width: 30%;
+      
         
     }
     section h2 {
@@ -164,105 +189,28 @@
         text-align: justify;
         margin: 10px;
     }
-
-
+    .vision {
+        position: relative;
+        width: 100%;
+        
+    }
+    .mision {
+        position: relative;
+        width: 100%;
+    }
 }
-
-
-
 @media (min-width: 768px) and (max-width: 991px) {
     #the-body {
         display: flex;
         flex-direction: column;
     }
-    
-    header {
-        text-align: center;
-        height: 23vh;
-        padding-top: 40px;
-        box-sizing: border-box;
-    }
 
-    nav {
-        width: 100vw;
-        height: 7vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        
+    #header_nav_container {
+        position: static;
     }
-
-    
-
-    ul {
-        width: 500px;
-        height: 30px;
-        display: flex;       
-        justify-content: space-around;
-       
-    }
-
-    ul li {
-        width: 20%;
-        padding: 7px;
-        
-        text-align: center;
-        
-        
-        
-    }
-
-    footer {
-        position:absolute;
-        bottom: 0;
-        height: 125px;
-        width: 100%;
-        box-sizing: border-box;
-        
-    }
-
-    .general-info-uno {
-        font-size: 10px;
-        padding-left: 20px;
-        padding-top: 20px;
-        float: left;
-        
-    }
-    .general-info-dos {
-        font-size: 10px;
-        padding-left: 20px;
-        padding-top: 20px;
-        margin-left: 300px;
-        float: left;
-    }
-    #container {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        height: 50vh;
-        padding-top: 15px;
-    
-    }
-    section {
-        width: 50%;
-        height: 225px;
-        
-    }
-    section h2 {
-        text-align: center;
-    }
-    section p {
-        text-align: justify;
-        margin: 10px;
-    }
-
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    #the-body {
-        display: flex;
-        flex-direction: column;
+    #footer_container {
+        position: static;
+        margin-top: 25px;
     }
     
     header {
@@ -300,11 +248,9 @@
     }
 
     footer {
-        position:absolute;
-        bottom: 0;
+        
         height: 125px;
         width: 100%;
-        box-sizing: border-box;
         
     }
 
@@ -319,20 +265,20 @@
         font-size: 10px;
         padding-left: 20px;
         padding-top: 20px;
-        margin-left: 250px;
+        margin-left: 300px;
         float: left;
     }
     #container {
         display: flex;
         justify-content: center;
         width: 100vw;
-        
         padding-top: 15px;
-        overflow: auto;
+    
     }
     section {
-        width: 50%;
-        height: 225px;
+        /* ancho de la seccion */
+        width: 40%;
+      
         
     }
     section h2 {
@@ -342,8 +288,115 @@
         text-align: justify;
         margin: 10px;
     }
+    .vision {
+        position: relative;
+        width: 100%;
+        
+    }
+    .mision {
+        position: relative;
+        width: 100%;
+    }
 }
+@media (min-width: 576px) and (max-width: 767px) {
+    #the-body {
+        display: flex;
+        flex-direction: column;
+    }
 
+    #header_nav_container {
+        position: static;
+    }
+    #footer_container {
+        position: static;
+        margin-top: 25px;
+    }
+    
+    header {
+        text-align: center;
+        height: 23vh;
+        padding-top: 35px;
+        box-sizing: border-box;
+    }
+
+    nav {
+        width: 100vw;
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    ul {
+        width: 500px;
+        height: 30px;
+        display: flex;       
+        justify-content: space-around;
+       
+    }
+
+    ul li {
+        width: 20%;
+        padding: 7px;
+        
+        text-align: center;
+        
+        
+        
+    }
+
+    footer {
+        
+        height: 125px;
+        width: 100%;
+        
+    }
+
+    .general-info-uno {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-top: 20px;
+        float: left;
+        
+    }
+    .general-info-dos {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-left: 300px;
+        float: left;
+    }
+    #container {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        padding-top: 15px;
+    
+    }
+    section {
+        /* ancho de la seccion */
+        width: 55%;
+      
+        
+    }
+    section h2 {
+        text-align: center;
+    }
+    section p {
+        text-align: justify;
+        margin: 10px;
+    }
+    .vision {
+        position: relative;
+        width: 100%;
+        
+    }
+    .mision {
+        position: relative;
+        width: 100%;
+    }
+}
 @media (max-width: 575px) {
     #the-body {
         display: flex;
