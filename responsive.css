@@ -8,6 +8,11 @@
         flex-direction: column;
     }
 
+    .cronograma {
+        height: 249px;
+    }
+
+
     #header_nav_container {
         position: static;
     }

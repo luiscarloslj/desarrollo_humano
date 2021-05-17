@@ -45,6 +45,18 @@ a {
     height: 25px;    
 }
 
+table tr {
+    background-color: #00aa99;
+    opacity: 0.7;
+    color: #000000;
+}
+
+caption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 footer {
     background-color: #00aa99;
     font-family: 'Bangers', 'arial';;
@@ -57,19 +69,6 @@ section {
 }
 
 
-#footer_container {
-    background-color:aqua;
-}
 
-table tr {
-    background-color: #00aa99;
-    opacity: 0.7;
-    color: #000000;
-}
 
-caption {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
 
