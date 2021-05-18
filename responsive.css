@@ -51,7 +51,7 @@
 
     ul li {
         width: 20%;
-        padding: 2px;
+        padding: 7px;
         
         text-align: center;
         
@@ -433,6 +433,10 @@
         font-size: 12px;
     }
 
+    .cronograma {
+        height: 249px;
+    }
+    
     nav {
         width: 100vw;
         height: 10vh;
