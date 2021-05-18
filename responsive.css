@@ -342,6 +342,9 @@
         align-items: center;
         
     }
+    .cronograma {
+        height: 249px;
+    }
 
     ul {
         width: 500px;
@@ -434,9 +437,9 @@
     }
 
     .cronograma {
-        height: 249px;
+        height: 275px;
     }
-    
+
     nav {
         width: 100vw;
         height: 10vh;
