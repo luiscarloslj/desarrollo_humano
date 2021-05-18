@@ -25,20 +25,19 @@ ul {
     box-shadow: 1px 1px 3px 3px  aquamarine;
     background-color:  #00aa99;
     opacity: 0.8;
+    padding: 0;
 }
 
 
 ul li {    
-    display: inline-block;
+    
     font-family: 'Bangers', 'arial';
     transition: 1s;
-    
+    display: inline;   
 }
-ul li:hover {
-    background-color: aquamarine;
-    
-    
-    
+
+li:hover {
+    background-color: aquamarine;    
 }
 
 .fase_i
@@ -51,11 +50,24 @@ ul li:hover {
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
 }
+
 a {
+    outline: none;
     text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 150%;    
     color: black;
-    height: 25px;    
+    line-height: 2;
 }
+/* a {
+    text-decoration: none;
+    
+    color: black;
+    height: 25px;     
+}
+    */
+
 
 table tr {
     background-color: #00aa99;
